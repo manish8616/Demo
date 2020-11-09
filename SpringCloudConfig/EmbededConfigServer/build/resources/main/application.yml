@@ -1,0 +1,5 @@
+
+logging:
+  file: logger.log
+  level:
+    root: TRACE
