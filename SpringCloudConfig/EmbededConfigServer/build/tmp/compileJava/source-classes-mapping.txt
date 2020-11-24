@@ -1,4 +1,0 @@
-com/example/spring/cloud/config/server/ConfigurationServiceApplication.java
- com.example.spring.cloud.config.server.ConfigurationServiceApplication
-com/example/spring/cloud/config/server/MessageRestController.java
- com.example.spring.cloud.config.server.MessageRestController
