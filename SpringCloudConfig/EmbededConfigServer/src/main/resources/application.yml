@@ -1,5 +1,14 @@
-
 logging:
-  file: logger.log
-  level:
+   file:
+     name: my.log
+   level:
     root: TRACE
+    
+management:
+   security:
+      enabled: false
+   endpoints:
+     web:
+       exposure:
+         include: "*"
+trace: true

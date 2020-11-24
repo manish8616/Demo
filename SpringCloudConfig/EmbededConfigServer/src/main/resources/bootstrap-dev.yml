@@ -1,0 +1,13 @@
+spring: 
+  cloud:
+   config:
+     server:
+       composite:
+         - type: aws
+           region: us-east-2
+           bucket: springcloud
+           searchPaths: core,entitlement,${spring.application.name}  
+    
+       bootstrap: true
+       
+        

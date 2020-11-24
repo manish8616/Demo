@@ -1,0 +1,18 @@
+spring: 
+  cloud:
+   config:
+     server:
+       composite:
+         - type: native
+           search-locations: file:///opt/config/core
+           addLabelLocations: false   
+         - type: native
+           search-locations: file:///opt/config/entitlement
+           addLabelLocations: false  
+         - type: native
+           search-locations: file:///opt/config/{application}
+           addLabelLocations: false
+                                    
+       bootstrap: true
+       
+        
